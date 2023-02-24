@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>g shock</title>
+    <!-- link css-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- link icon-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <a href="#" class="logo">G-SHOCK</a>
+
+        <ul class="navlist">
+            <li><a href="#home">Trang Chủ</a></li>
+            <li><a href="#men">Nam</a></li>
+            <li><a href="#women">Nữ</a></li>
+            <li><a href="#featured">Đặc Sắc</a></li>
+            <li><a href="#new">Mới Nhất</a></li>
+            <li><a href="#contact">Liên Hệ</a></li>
+        </ul>
+
+        <div class="header-icons">
+            <div class="icon-cart">
+                <i class='bx bx-shopping-bag bag'></i>
+                <span class="cart-notice">0</span>
+
+                <div class="cart-list"> <!-- no cart: cart-list--no-cart-->
+                    
+                    <img src="./assets/image/all/no_cart.png" alt="" class="cart-no-cart-img">
+                    <span class="cart-list-no-cart-msg">Chưa có sản phẩm</span>
+
+                    <h4 class="cart-heading">Giỏ hàng của bạn</h4>
+
+                    <ul class="product-list">
+                        <!-- <li class="product-infor">
+                            <img src="./assets/image/men/GA-110-1BDR.jpg" alt="">
+                            <div>
+                                <h4 class="name">dw500</h4>
+                                <p class="price">2.200.000 d</p>
+                            </div>
+                            <input type="number" value="1">
+                            <div class="close">
+                                <i class='bx bx-trash trash' ></i>
+                            </div>
+                        </li>
+
+                        <li class="product-infor">
+                            <img src="./assets/image/men/GA-110-1BDR.jpg" alt="">
+                            <div>
+                                <h4 class="name">dw500</h4>
+                                <p class="price">2.200.000 d</p>
+                            </div>
+                            <input type="number" value="1">
+                            <div class="close">
+                                <i class='bx bx-trash trash' ></i>
+                            </div>
+                        </li>
+
+                        <li class="product-infor">
+                            <img src="./assets/image/men/GA-110-1BDR.jpg" alt="">
+                            <div>
+                                <h4 class="name">dw500</h4>
+                                <p class="price">2.200.000 d</p>
+                            </div>
+                            <input type="number" value="1">
+                            <div class="close">
+                                <i class='bx bx-trash trash' ></i>
+                            </div>
+                        </li> -->
+                    </ul>
+
+                    <div class="price-total">
+                        <p>Tổng tiền: <span>0</span><sup>₫</sup></p>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+    <!-- home -->
+    <section class="home" id="home">
+        <img src="./assets/image/home/b1.jpg" alt="" id="banner" >
+        <div class="home-text">
+            <!-- <h1><span>DW</span>5600</h1>
+            <p>New colors, now also available in men's sizing</p>
+            <a href="#" class="btn">View collection</a> -->
+            
+        </div>
+        <i class='bx bx-chevron-left arrow-left'></i>
+        <i class='bx bx-chevron-right arrow-right' ></i>
+    </section>
+
+    <!-- men -->
+    <section class="men" id="men">
+        <div class="center-text">
+            <h2>Sản Phẩm Dàng Cho Nam</h2>
+        </div>
+
+        <div class="men-content">
+            <div class="row-men"> <!-- row: hang ngang -->
+                <div class="product">
+                    <img class="product-img" src="./assets/image/men/GA-110-1BDR.jpg" alt="">
+                
+                    <div class="men-text">
+                        <h5>G-SHOCK NAM – QUARTZ (PIN) – DÂY CAO SU</h5>
+                        <h3 class="product-name">GA-110-1BDR</h3>
+                    </div>
+
+                    <div class="price">
+                        <p>100.000 <sup>₫</sup></p>
+                    </div>
+
+                    <i class='bx bxs-heart tym' ></i>
+                </div>
+ 
+                
+                <button class="btn btn-buy">Thêm vào giỏi hàng</button>
+                
+            </div>  
+
+            <div class="row-men"> <!-- row: hang ngang -->
+                <div class="product">
+                    <img class="product-img" src="./assets/image/men/GW-9400-3DR.jpg" alt="">
+            
+                    <div class="men-text">
+                        <h5>G-SHOCK NAM – SOLAR – DÂY CAO SU</h5>
+                        <h3 class="product-name">GW-9400-3DR</h3>
+                    </div>
+
+                    <div class="price">
+                        <p>900.000 <sup>₫</sup></p>
+                    </div>
+
+                    <i class='bx bxs-heart tym' onClick="hover()"></i>
+                </div>
+ 
+                <button class="btn btn-buy">Thêm vào giỏi hàng</button>
+            </div>  
+
+            <div class="row-men"> <!-- row: hang ngang -->
+                <div class="product">
+                    <img class="product-img" src="./assets/image/men/GBA-400-4ADR.jpg" alt="">
+                
+                    <div class="men-text">
+                        <h5>G-SHOCK NAM – QUARTZ (PIN) – DÂY CAO SU</h5>
+                        <h3 class="product-name">GBA-400-4ADR</h3>
+                    </div>
+
+                    <div class="price">
+                        <p>600.000 <sup>₫</sup></p>
+                    </div>
+
+                    <i class='bx bxs-heart tym' ></i>
+                </div>
+ 
+                <button class="btn btn-buy">Thêm vào giỏi hàng</button>
+            </div>  
+
+            <div class="row-men"> <!-- row: hang ngang -->
+                <div class="product">
+                    <img class="product-img" src="./assets/image/men/GA-B2100C-9A.jpg" alt="">
+                
+                    <div class="men-text">
+                        <h5>G-SHOCK  NAM – TOUGH SOLAR – VỎ CARBON</h5>
+                        <h3 class="product-name">GA-B2100C-9ADR</h3>
+                    </div>
+
+                    <div class="price">
+                        <p>550.000 <sup>₫</sup></p>
+                    </div>
+
+                    <i class='bx bxs-heart tym' ></i>
+                </div>
+ 
+                <button class="btn btn-buy">Thêm vào giỏi hàng</button>
+            </div>    
+        </div>
+
+    </section>
+
+    <!-- wonmen -->
+    <section class="women" id="women">
+        <div class="center-text">
+            <h2>Sản Phẩm Dàng Cho Nữ</h2>
+        </div>
+
+        <div class="women-content">
+            <div class="row-women"> <!-- row: hang ngang -->
+                <div class="product">
+                    <img class="product-img" src="./assets/image/women/36_BA-130-7A1DR.jpg" alt="">
+                
+                    <div class="women-text">
+                        <h5>BABY-G NỮ – QUARTZ (PIN) – DÂY CAO SU</h5>
+                        <h3 class="product-name">BA-130-7A1DR</h3>
+                    </div>
+
+                    <div class="price">
+                        <p>400.000 <sup>₫</sup></p>
+                    </div>
+
+                    <i class='bx bxs-heart tym' ></i>
+                </div>
+ 
+                <button class="btn btn-buy">Thêm vào giỏi hàng</button>
+            </div>  
+
+            <div class="row-women"> <!-- row: hang ngang -->
+                <div class="product">
+                    <img class="product-img" src="./assets/image/women/4_BSA-B100-4A1DR.jpg" alt="">
+                
+                    <div class="women-text">
+                        <h5>BABY-G NỮ – QUARTZ (PIN) – DÂY CAO SU</h5>
+                        <h3 class="product-name">BSA-B100-4A1DR</h3>
+                    </div>
+
+                    <div class="price">
+                        <p>950.000 <sup>₫</sup></p>
+                    </div>
+
+                    <i class='bx bxs-heart tym' ></i>
+                </div>
+ 
+                <button class="btn btn-buy">Thêm vào giỏi hàng</button>
+            </div>
+
+            <div class="row-women"> <!-- row: hang ngang -->
+                <div class="product">
+                    <img class="product-img" src="./assets/image/women/161_BGA-195M-4ADR.jpg" alt="">
+                
+                    <div class="women-text">
+                        <h5>BABY-G NỮ – QUARTZ (PIN) – DÂY CAO SU</h5>
+                        <h3 class="product-name">BGA-195M-4ADR</h3>
+                    </div>
+
+                    <div class="price">
+                        <p>440.000 <sup>₫</sup></p>
+                    </div>
+
+                    <i class='bx bxs-heart tym' ></i>
+                </div>
+ 
+                <button class="btn btn-buy">Thêm vào giỏi hàng</button>
+            </div>
+
+            <div class="row-women"> <!-- row: hang ngang -->
+                <div class="product">
+                    <img class="product-img" src="./assets/image/women/BGA-130-1BDR.jpg" alt="">
+                
+                    <div class="women-text">
+                        <h5>BABY-G NỮ – QUARTZ (PIN) – DÂY CAO SU</h5>
+                        <h3 class="product-name">BGA-130-1BDR</h3>
+                    </div>
+
+                    <div class="price">
+                        <p>380.000 <sup>₫</sup></p>
+                    </div>
+
+                    <i class='bx bxs-heart tym' ></i>
+                </div>
+ 
+                <button class="btn btn-buy">Thêm vào giỏi hàng</button>
+            </div>
+            
+        </div>
+
+    </section>
+
+
+    <!-- featured -->
+    <section class="featured" id="featured">
+        <div class="center-text">
+            <h2>Featured Categories</h2>
+        </div>
+
+        <div class="featured-content">
+            <div class="row"> <!-- row: hang ngang -->
+                <img src="./assets/image/home/a111.jpg" alt="">
+                
+                <div class="fea-text">
+                    <h5>Mens</h5>
+                    <p>10 items</p>
+                </div>
+
+                <div class="arrow">
+                    <a href=""><i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+            </div>
+
+            <div class="row"> <!-- row: hang ngang -->
+                <img src="./assets/image/home/a111.jpg" alt="">
+                
+                <div class="fea-text">
+                    <h5>Mens</h5>
+                    <p>10 items</p>
+                </div>
+
+                <div class="arrow">
+                    <a href=""><i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+            </div>
+
+            <div class="row"> <!-- row: hang ngang -->
+                <img src="./assets/image/home/a111.jpg" alt="">
+                
+                <div class="fea-text">
+                    <h5>Mens</h5>
+                    <p>10 items</p>
+                </div>
+
+                <div class="arrow">
+                    <a href=""><i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+            </div>
+
+            <div class="row"> <!-- row: hang ngang -->
+                <img src="./assets/image/home/a111.jpg" alt="">
+                
+                <div class="fea-text">
+                    <h5>Mens</h5>
+                    <p>10 items</p>
+                </div>
+
+                <div class="arrow">
+                    <a href=""><i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+            </div>
+
+            <div class="row"> <!-- row: hang ngang -->
+                <img src="./assets/image/home/a111.jpg" alt="">
+                
+                <div class="fea-text">
+                    <h5>Mens</h5>
+                    <p>10 items</p>
+                </div>
+
+                <div class="arrow">
+                    <a href=""><i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+            </div>
+
+            <div class="row"> <!-- row: hang ngang -->
+                <img src="./assets/image/home/a111.jpg" alt="">
+                
+                <div class="fea-text">
+                    <h5>Mens</h5>
+                    <p>10 items</p>
+                </div>
+
+                <div class="arrow">
+                    <a href=""><i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+            </div>
+
+            
+        </div>
+
+    </section>
+
+    <!-- cta -->
+    <section class="cta">
+        <div class="cta-text">
+            <h6>SUMMER ON SALE OFF</h6>
+            <h4>20% OFF <br> NEW ARRIVAL</h4>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- new -->
+    <section class="new" id="new">
+        <div class="center-text">
+            <h2>New Arrivals</h2>
+        </div>
+
+        <div class="new-content">
+            <div class="box">
+                <img src="./assets/image/home/c1.jfif" alt="">
+                <h5>San pham moi nhat</h5>
+                <h6>2.000.000 vnd</h6>
+                <div class="sale">
+                    <h4>sale</h4>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./assets/image/home/c1.jfif" alt="">
+                <h5>San pham moi nhat</h5>
+                <h6>2.000.000 vnd</h6>
+                <div class="sale">
+                    <h4>sale</h4>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./assets/image/home/c1.jfif" alt="">
+                <h5>San pham moi nhat</h5>
+                <h6>2.000.000 vnd</h6>
+                <div class="sale">
+                    <h4>sale</h4>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./assets/image/home/c1.jfif" alt="">
+                <h5>San pham moi nhat</h5>
+                <h6>2.000.000 vnd</h6>
+                <div class="sale">
+                    <h4>sale</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- brand -->
+    <section class="brand">
+        <div class="brand-content">
+            <div class="main">
+                <img src="./assets/image/home/m1.png" alt="">
+            </div>
+
+            <div class="main">
+                <img src="./assets/image/home/m2.png" alt="">
+            </div>
+
+            <div class="main">
+                <img src="./assets/image/home/m3.png" alt="">
+            </div>
+
+            <div class="main">
+                <img src="./assets/image/home/m4.png" alt="">
+            </div>
+
+            <div class="main">
+                <img src="./assets/image/home/m5.png" alt="">
+            </div>
+
+            <div class="main">
+                <img src="./assets/image/home/m6.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section class="contact" id="contact">
+        <div class="main-contact">
+            <h3>Classix</h3>
+            <h5>Let's Connest With Us</h5>
+            <div class="icons">
+                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="#"><i class='bx bxl-youtube' ></i></a>
+            </div>
+        </div>
+
+        <div class="main-contact">
+            <h3>Explore</h3>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#featured">Featured</a></li>
+            <li><a href="#new">New</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </div>
+
+        <div class="main-contact">
+            <h3>Our Services</h3>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Free Shipping</a></li>
+            <li><a href="#">Gift Cards</a></li>
+        </div>
+
+        <div class="main-contact">
+            <h3>Shopping</h3>
+            <li><a href="#">G Shock</a></li>
+            <li><a href="#">Baby G</a></li>
+            <li><a href="#">Casio</a></li>
+            <li><a href="#">Custom</a></li>
+        </div>
+    </section>
+
+    <!-- scroll top -->
+    <a href="#" class="top">
+        <i class='bx bx-up-arrow-alt'></i>
+    </a>
+
+    <script src="./app.js"></script>
+</body>
+</html>
